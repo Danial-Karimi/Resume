@@ -8,26 +8,32 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
 
-    body {
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
       margin: 0;
       padding: 0;
       font-family: 'Vazirmatn', sans-serif;
       background: linear-gradient(135deg, #1e3c72, #2a5298);
       color: #fff;
-      height: 100vh;
+      min-height: 100dvh;
       display: flex;
       justify-content: center;
       align-items: center;
-      text-align: center;
+      direction: rtl;
     }
 
     .container {
       background: rgba(255, 255, 255, 0.1);
-      padding: 30px 50px;
+      padding: 30px 40px;
       border-radius: 16px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
       backdrop-filter: blur(10px);
+      width: 90%;
       max-width: 400px;
+      text-align: center;
     }
 
     h1 {
@@ -36,8 +42,8 @@
     }
 
     p {
-      margin: 10px 0;
       font-size: 16px;
+      margin: 10px 0;
     }
 
     a {
@@ -49,7 +55,7 @@
 <body>
   <div class="container">
     <h1>در حال انتقال...</h1>
-    <p>صفحه به آدرس جدید منتقل شده است.</p>
+    <p>این صفحه به آدرس جدید منتقل شده است.</p>
     <p>اگر تا چند ثانیه دیگر منتقل نشدید، <a href="https://danial-karimi.github.io/">اینجا کلیک کنید</a>.</p>
   </div>
 </body>
